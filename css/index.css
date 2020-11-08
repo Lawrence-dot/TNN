@@ -1,0 +1,12 @@
+.topbar {
+    background-color: rgba(34, 145, 219, 0.63);
+}
+
+a{
+    color: white;
+}
+
+.link-section {
+    background-color: red!important;
+    border: 2px solid black;
+}

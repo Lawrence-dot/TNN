@@ -1,0 +1,273 @@
+.page-col {
+    transition: all .5s ease-in;
+}
+
+.side-nav {
+    position: relative;
+}
+
+.contain {
+    margin-left: 0px!important;
+}
+
+.topbar {
+    background-color: rgba(41, 121, 175, 0.63);
+}
+
+.fixed-icon {
+    position: fixed;
+    display: block;
+    color: black;
+    top: 90%;
+    left: 82%;
+    font-size: 1rem;
+    font-family: fantasy;
+    z-index: 1;
+}
+
+.fixed-icon button {
+    background-color:rgba(41, 121, 175, 0.63);
+}
+
+.border-radius {
+    border-radius: 40%;
+}
+
+.navbar-collapse  {
+    transition: all .5s ease;
+}
+
+h2.menu-header {
+    font-family: cursive;
+    text-shadow: 1px 1px 1px;
+    padding: 1px;
+    background-color:  rgba(125, 174, 206, 0.836);
+    border: 1px solid black;
+}
+
+a{
+    color: white;
+}
+
+span {
+    transition: all 1s ease;
+    font-weight: 800;
+}
+
+div.background-section {
+    background-image:url('../images/landscape-1478102575-shake.gif');
+    background-size: cover;
+    height: 400px;
+}
+
+.hide {
+    display: none;
+    transition: all .5s ease;
+}
+
+.torry-header {
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 1px 1px;
+}
+
+span.menu {
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 1px 1px;
+    font-size: larger;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+}
+
+.page-col {
+    padding-left: 0px!important;
+}
+
+button.natural-shop {
+    background-color: rgba(165, 42, 42, 0.788)!important;
+    color: #ffffff;
+}
+
+
+.column1 {
+    background-image: url('../images/Butter.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.natural-content {
+    border-left: 2px groove white;
+    border-right: 2px groove white;
+    border-bottom: 2px groove white;
+    padding: 2rem!important;
+    font-weight: bold;
+}
+
+.natural-content h2 {
+    color: brown;
+    opacity: .8;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.column2 {
+   padding: 0px!important;
+}
+
+.column4 {
+    padding: 0px!important;
+}
+
+.column3 {
+    background-image: url('../images/hqdefault.jpg');;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.content3 {
+    padding-bottom: 1rem;
+    border: 1px double black;
+}
+
+.column3 p {
+    font-weight: 600;
+}
+
+.column3 h1 {
+    padding-top: 2rem;
+    color: rgb(7, 73, 16);
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.advert-col  {
+    height: 250px;
+    max-height: 270px;
+    padding: 0px!important;
+}
+
+img.last-img {
+    max-height: 270px;
+}
+
+.review-box {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 1px 1px 1px;
+    margin: 15px;
+}
+
+/* .content3 {
+    ba
+} */
+
+
+.review-box img {
+    height: 40px;
+    position: relative;
+    left: 43%;
+}
+
+.review-content {
+    padding: 1rem!important;
+    background-color: white;
+    opacity: .9;
+}
+
+.review-content p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button.Preorder-btn {
+    color: white;
+    background-color: green;
+    height: 1.4rem;
+    font-size: .5rem;
+}
+
+h1.just-arrived {
+    padding: 1rem;
+    opacity: .8;
+}
+
+.bottom {
+    background-color: rgba(41, 121, 175, 0.63);
+    padding: 4px;
+    margin-left: -16px!important;
+    margin-right: -16px!important;
+    margin-bottom: -8rem!important;
+    font-size: .5rem;
+}
+
+.review-section{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.137);
+    background-attachment: fixed;
+}
+
+.review-section h4 {
+    font-family: fantasy;
+}
+
+img.footer-topimg {
+    height: 250px;
+}
+
+.footer {
+    background-color: rgba(41, 121, 175, 0.63);;
+}
+
+
+footer img {
+    height: 50px!important;
+}
+
+ul.social {
+    display: inline-block;
+}
+
+/* For Small Devices */
+@media screen and (max-width: 575px){
+    div.background-section {
+        height: 400px;
+    }
+
+    .natural-content {
+        margin-left: 20px;
+    }
+
+    img.footer-topimg {
+        height: 200px;
+    }
+
+    .bottom {
+        background-color: rgba(41, 121, 175, 0.63);
+        padding: 1px;
+        margin-left: -16px!important;
+        margin-right: -16px!important;
+        margin-bottom: -8rem!important;
+        font-size: .6rem;
+    }
+    
+    .advert-col  {
+        height: 200px;
+        max-height: 200px;
+        padding: 0px!important;
+    }
+
+    .advert-col img {
+        width: 10%;
+    }
+
+    p.add-info {
+        font-size: .8rem;
+        text-align: center;
+    }
+}
