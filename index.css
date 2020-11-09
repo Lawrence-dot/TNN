@@ -67,7 +67,7 @@ span {
 }
 
 div.background-section {
-    background-image:url('../images/landscape-1478102575-shake.gif');
+    background-image:url('images/landscape-1478102575-shake.gif');
     background-size: cover;
     height: 400px;
 }
