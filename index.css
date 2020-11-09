@@ -4,6 +4,16 @@
 
 .side-nav {
     position: relative;
+
+}
+
+.side-col {
+    height: 100%;
+    padding: 0px!important;
+}
+
+.side-bar {
+    height: 100%;
 }
 
 .contain {
@@ -40,9 +50,11 @@
 h2.menu-header {
     font-family: cursive;
     text-shadow: 1px 1px 1px;
-    padding: 1px;
+    padding: 1.5px;
     background-color:  rgba(125, 174, 206, 0.836);
     border: 1px solid black;
+    font-size: 100%;
+    text-align: center;
 }
 
 a{
@@ -78,10 +90,6 @@ span.menu {
     font-size: larger;
 }
 
-.sidebar {
-    width: 200px;
-    height: 100%;
-}
 
 .page-col {
     padding-left: 0px!important;
@@ -143,6 +151,7 @@ button.natural-shop {
     padding-top: 2rem;
     color: rgb(7, 73, 16);
     font-weight: 700;
+    font-size: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -163,10 +172,6 @@ img.last-img {
     box-shadow: 1px 1px 1px;
     margin: 15px;
 }
-
-/* .content3 {
-    ba
-} */
 
 
 .review-box img {
@@ -234,7 +239,7 @@ ul.social {
 }
 
 /* For Small Devices */
-@media screen and (max-width: 575px){
+@media screen and (max-width: 591px){
     div.background-section {
         height: 400px;
     }
@@ -253,7 +258,7 @@ ul.social {
         margin-left: -16px!important;
         margin-right: -16px!important;
         margin-bottom: -8rem!important;
-        font-size: .6rem;
+        font-size: .4rem;
     }
     
     .advert-col  {
@@ -267,7 +272,71 @@ ul.social {
     }
 
     p.add-info {
-        font-size: .8rem;
+        font-size: 100%;
         text-align: center;
     }
+
+    
+    .fixed-icon {
+        position: fixed;
+        display: block;
+        color: black;
+        top: 90%;
+        left: 76%;
+        font-size: 1rem;
+        font-family: fantasy;
+        z-index: 1;
+    }
+
+    .side-bar {
+        width: 190px;
+    }
+
+}
+
+
+
+/* For Extra Small Devices */
+@media screen and (max-width: 500px){
+    div.background-section {
+        height: 400px;
+    }
+
+
+    .bottom {
+        background-color: rgba(41, 121, 175, 0.63);
+        padding: 1px;
+        margin-left: -16px!important;
+        margin-right: -16px!important;
+        margin-bottom: -8rem!important;
+        font-size: .4rem;
+    }
+    
+    .side-search {
+        display: none;
+    }
+
+    .side-bar {
+        width: 70px;
+    }
+
+    .side-detail {
+        display: none;
+    }
+
+    .torry-header {
+        font-weight: 800;
+        color: white;
+        text-shadow: 1px 1px 1px;
+        font-size: 100%;
+    }
+    
+    span.menu {
+        font-weight: 800;
+        color: white;
+        text-shadow: 1px 1px 1px;
+        font-size: 100%;
+    }
+    
+
 }
