@@ -4,7 +4,7 @@
 
 .side-nav {
     position: relative;
-
+    border: 1px solid;
 }
 
 .side-col {
@@ -17,11 +17,16 @@
 }
 
 .contain {
-    margin-left: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
 }
 
 .topbar {
     background-color: rgba(41, 121, 175, 0.63);
+}
+
+li {
+    list-style: none;
 }
 
 .fixed-icon {
@@ -29,7 +34,7 @@
     display: block;
     color: black;
     top: 90%;
-    left: 82%;
+    left: 89%;
     font-size: 1rem;
     font-family: fantasy;
     z-index: 1;
@@ -69,7 +74,7 @@ span {
 div.background-section {
     background-image:url('images/landscape-1478102575-shake.gif');
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 .hide {
@@ -111,7 +116,7 @@ button.natural-shop {
     border-left: 2px groove white;
     border-right: 2px groove white;
     border-bottom: 2px groove white;
-    padding: 2rem!important;
+    padding: 5rem!important;
     font-weight: bold;
 }
 
@@ -131,7 +136,7 @@ button.natural-shop {
 }
 
 .column3 {
-    background-image: url('images/hqdefault.jpg');;
+    background-image: url('images/hqdefault.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     color: #ffffff;
@@ -144,6 +149,7 @@ button.natural-shop {
 }
 
 .column3 p {
+    /* font-size: large; */
     font-weight: 600;
 }
 
@@ -151,18 +157,16 @@ button.natural-shop {
     padding-top: 2rem;
     color: rgb(7, 73, 16);
     font-weight: 700;
-    font-size: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .advert-col  {
-    height: 250px;
-    max-height: 270px;
+    height: 370px;
     padding: 0px!important;
 }
 
 img.last-img {
-    max-height: 270px;
+    height: 380px;
 }
 
 .review-box {
@@ -171,6 +175,7 @@ img.last-img {
     padding: 1rem;
     box-shadow: 1px 1px 1px;
     margin: 15px;
+    background-color: rgba(0, 0, 0, 0.397);
 }
 
 
@@ -183,18 +188,18 @@ img.last-img {
 .review-content {
     padding: 1rem!important;
     background-color: white;
-    opacity: .9;
+    opacity: .8;
 }
 
 .review-content p {
+    font-size: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button.Preorder-btn {
     color: white;
     background-color: green;
-    height: 1.4rem;
-    font-size: .5rem;
+    font-size: 1rem;
 }
 
 h1.just-arrived {
@@ -204,7 +209,7 @@ h1.just-arrived {
 
 .bottom {
     background-color: rgba(41, 121, 175, 0.63);
-    padding: 4px;
+    padding: 5px;
     margin-left: -16px!important;
     margin-right: -16px!important;
     margin-bottom: -8rem!important;
@@ -222,7 +227,7 @@ h1.just-arrived {
 }
 
 img.footer-topimg {
-    height: 250px;
+    height: 340px;
 }
 
 .footer {
@@ -238,10 +243,23 @@ ul.social {
     display: inline-block;
 }
 
+.footertop-img {
+    padding-right: 0px!important;
+}
+
+img.feature-img {
+    border-radius: 50%;
+}
+
+.features h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifssss;
+    font-weight: 600;
+}
+
 /* For Small Devices */
 @media screen and (max-width: 591px){
     div.background-section {
-        height: 400px;
+        height: 450px;
     }
 
     .natural-content {
@@ -252,18 +270,21 @@ ul.social {
         height: 200px;
     }
 
+    .natural-content {
+        padding: 2rem!important;
+        font-weight: bold;
+    }
+
     .bottom {
         background-color: rgba(41, 121, 175, 0.63);
         padding: 1px;
         margin-left: -16px!important;
         margin-right: -16px!important;
-        margin-bottom: -8rem!important;
-        font-size: .4rem;
+        margin-bottom: -20rem!important;
     }
     
     .advert-col  {
-        height: 200px;
-        max-height: 200px;
+        max-height: 220px;
         padding: 0px!important;
     }
 
@@ -292,6 +313,11 @@ ul.social {
         width: 190px;
     }
 
+    .column3 h1 {
+        font-size: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }    
+
 }
 
 
@@ -302,14 +328,8 @@ ul.social {
         height: 400px;
     }
 
-
-    .bottom {
-        background-color: rgba(41, 121, 175, 0.63);
-        padding: 1px;
-        margin-left: -16px!important;
-        margin-right: -16px!important;
-        margin-bottom: -8rem!important;
-        font-size: .4rem;
+    .background-section p{
+        margin-top: 5px!important;
     }
     
     .side-search {
@@ -338,5 +358,14 @@ ul.social {
         font-size: 100%;
     }
     
+    .natural-content {
+        padding: 1.5rem!important;
+        font-weight: bold;
+    }
+
+    form.form-inline{
+        margin-left: 2rem!important;
+        padding: .5rem!important;
+    }
 
 }
